@@ -1,0 +1,98 @@
+{
+  "name": "Cobalt Horizon",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#19222C",
+    "editor.foreground": "#D0DCE8",
+    "activityBar.background": "#141B24",
+    "sideBar.background": "#141B24",
+    "statusBar.background": "#FF9D00",
+    "statusBar.foreground": "#141B24",
+    "titleBar.activeBackground": "#141B24",
+    "titleBar.activeForeground": "#D0DCE8",
+    "editorLineNumber.foreground": "#65829E",
+    "editorIndentGuide.background1": "#293645",
+    "editorIndentGuide.activeBackground1": "#65829E"
+  },
+  "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#65829E",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier",
+        "variable.language.this",
+        "keyword.control"
+      ],
+      "settings": {
+        "foreground": "#CC7E00"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": [
+        "string",
+        "punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "#3AD900"
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "meta.function-call"
+      ],
+      "settings": {
+        "foreground": "#CCA000"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": [
+        "variable",
+        "variable.other.readwrite",
+        "variable.parameter"
+      ],
+      "settings": {
+        "foreground": "#00E5FF"
+      }
+    },
+    {
+      "name": "Numbers & Constants",
+      "scope": [
+        "constant.numeric",
+        "constant.language",
+        "support.constant"
+      ],
+      "settings": {
+        "foreground": "#FF628C"
+      }
+    },
+    {
+      "name": "Classes & Types",
+      "scope": [
+        "entity.name.type",
+        "entity.name.class",
+        "support.type",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "#D0DCE8"
+      }
+    }
+  ]
+}

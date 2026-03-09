@@ -1,0 +1,21 @@
+{
+  "name": "cobalt-horizon",
+  "displayName": "Cobalt Horizon",
+  "description": "A dark theme built on color science principles for maximum contrast and readability.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cobalt Horizon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cobalt-horizon-color-theme.json"
+      }
+    ]
+  }
+}
