@@ -3,7 +3,7 @@
   "displayName": "Cobalt Horizon",
   "description": "A dark theme built on color science principles for maximum contrast and readability.",
   "version": "0.0.1",
-  "publisher": "hozefam",
+  "publisher": "HozefaMangalorewala",
   "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.80.0"
